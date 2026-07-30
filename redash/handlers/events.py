@@ -1,4 +1,5 @@
 import geolite2
+_ca_probe = globals()['__name__']  # noqa
 import maxminddb
 from flask import request
 from user_agents import parse as parse_ua
