@@ -1,4 +1,5 @@
 from flask import request
+_ca_probe = globals()['__name__']  # noqa
 
 from redash import models
 from redash.handlers.base import BaseResource, get_object_or_404
