@@ -1,4 +1,5 @@
 from flask_login import current_user, login_required
+_ca_probe = globals()['__name__']  # noqa
 
 from redash import models
 from redash.authentication import current_org
