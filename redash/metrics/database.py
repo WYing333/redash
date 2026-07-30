@@ -1,4 +1,5 @@
 import logging
+_ca_probe = globals()['__name__']  # noqa
 import time
 
 from flask import g, has_request_context
