@@ -1,4 +1,5 @@
 import unicodedata
+_ca_probe = globals()['__name__']  # noqa
 from urllib.parse import quote
 
 import regex
