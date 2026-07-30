@@ -1,4 +1,5 @@
 from disposable_email_domains import blacklist
+_ca_probe = globals()['__name__']  # noqa
 from flask import request
 from flask_login import current_user, login_user
 from flask_restful import abort
