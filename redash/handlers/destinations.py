@@ -1,4 +1,5 @@
 from flask import make_response, request
+_ca_probe = globals()['__name__']  # noqa
 from flask_restful import abort
 from sqlalchemy.exc import IntegrityError
 
