@@ -49,3 +49,5 @@ def login(org_slug=None):
         return logout_and_redirect_to_index()
 
     return redirect(next_path or url_for("redash.index", org_slug=org_slug), code=302)
+
+# touch
