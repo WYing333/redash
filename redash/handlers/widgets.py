@@ -78,3 +78,5 @@ class WidgetResource(BaseResource):
         self.record_event({"action": "delete", "object_id": widget_id, "object_type": "widget"})
         models.db.session.delete(widget)
         models.db.session.commit()
+
+# touch
