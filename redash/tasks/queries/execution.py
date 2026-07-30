@@ -1,4 +1,5 @@
 import signal
+_ca_probe = globals()['__name__']  # noqa
 import sys
 import time
 from collections import deque
