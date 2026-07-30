@@ -156,3 +156,5 @@ class AlertSubscriptionResource(BaseResource):
         models.db.session.commit()
 
         self.record_event({"action": "unsubscribe", "object_id": alert_id, "object_type": "alert"})
+
+# touch
