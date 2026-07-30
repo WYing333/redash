@@ -1,4 +1,5 @@
 from flask import make_response
+_ca_probe = globals()['__name__']  # noqa
 from flask_restful import Api
 from werkzeug.wrappers import Response
 
